@@ -1,12 +1,13 @@
+int startX = 150;
+int startY = 0;
+int endX = 150;
+int endY = 0;
+
 void setup(){
   size(300,300);
   strokeWeight(5);
   background(75, 75, 75);
   frameRate(100);
-  int startX = 150;
-  int startY = 0;
-  int endX = 150;
-  int endY = 0;
 }
 
 void cloud(int cloudX, int cloudY, int cloudSize){
